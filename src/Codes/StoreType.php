@@ -9,7 +9,6 @@ class StoreType extends AbstractCodes
 {
 
     const STORE_TYPE_INTERNAL = 1;
-    const STORE_TYPE_HEUREKA_POINT = 2;
     const STORE_TYPE_DEPOT_API = 3;
 
     /**
@@ -21,7 +20,6 @@ class StoreType extends AbstractCodes
     {
         return [
             self::STORE_TYPE_INTERNAL,
-            self::STORE_TYPE_HEUREKA_POINT,
             self::STORE_TYPE_DEPOT_API,
         ];
     }
